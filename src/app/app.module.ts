@@ -13,6 +13,7 @@ import { HomeComponent } from './components/content/home/home.component';
 import { SliderComponent } from './components/content/slider/slider.component';
 import { GalleryComponent } from './components/content/gallery/gallery.component';
 import { QuoteComponent } from './components/quote/quote.component';
+import { SwiperModule } from 'swiper/angular';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { QuoteComponent } from './components/quote/quote.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    SwiperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
