@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -14,6 +14,11 @@ import { SliderComponent } from './components/content/slider/slider.component';
 import { GalleryComponent } from './components/content/gallery/gallery.component';
 import { QuoteComponent } from './components/quote/quote.component';
 import { SwiperModule } from 'swiper/angular';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { SocialMediaBarComponent } from './components/social-media-bar/social-media-bar.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ParallaxDirective } from './directives/parallax.directive';
 
 @NgModule({
   declarations: [
@@ -26,15 +31,21 @@ import { SwiperModule } from 'swiper/angular';
     HomeComponent,
     SliderComponent,
     GalleryComponent,
-    QuoteComponent
+    QuoteComponent,
+    SocialMediaBarComponent,
+    ParallaxDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    SwiperModule
+    MatButtonModule,
+    MatIconModule,
+    SwiperModule,
+    FontAwesomeModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppModule { }

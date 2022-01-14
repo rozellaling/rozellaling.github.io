@@ -1,0 +1,57 @@
+.parallax {
+ 
+      
+        /* Full height */
+        height: 100%;
+
+        //parallax directive
+        //TODO: not sure if i need this
+        // z-index: -1;
+        // position: fixed;
+        // top: 100vh;
+      
+           /* The image used */
+    background-image: url('/assets/images/rozella_ling.jpg');
+        // /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        // background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        // background-position: 0% 5% 0% 0%;
+        // background-color: lightgray; 
+        transform: translateZ(-1px) scale(0.6);
+        border-radius: 50px;
+      }
+
+    //   #square{
+    //     position: fixed;
+    //     z-index: 9999;
+    //     top: 100vh; 
+    //     left: 0px;
+    //     width: 100px;
+    //     height: 100px;
+    //     background-color: green;
+    // }
+    
+    // #rectangle{
+    //     position: fixed;
+    //     z-index: 9999;
+    //     top: 100vh;
+    //     bottom: 0px; 
+    //     left: 50px;
+    //     width: 200px;
+    //     height: 100px;
+    //     background-color: red;
+    // }
+    
+    // #circle{
+    //     position: fixed;
+    //     z-index: 9999;
+    //     top:100vh;
+    //     bottom: 0px; 
+    //     right: 0px;
+    //     width: 100px;
+    //     height: 100px;
+    //     background-color: yellow;
+    //     border-radius: 50px;
+    // }

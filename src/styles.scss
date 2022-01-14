@@ -40,21 +40,28 @@ $myApp-theme: mat.define-light-theme((
 @import './sass/mixins';
 
 // // swiper
-// @import 'swiper/swiper/scss';
-// @import 'swiper/scss/navigation';
-// @import 'swiper/scss/pagination';
-
 @import '../node_modules/swiper/swiper-bundle.css';
+// @import '../node_modules/swiper/swiper.scss';
+// @import '../node_modules/swiper/scss';
 
+
+:root {
+  --swiper-theme-color: white;
+  --swiper-navigation-size: 7vh;
+}
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+  margin: 0; 
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  //TODO: make a overlay color = var(--bg-overlay-color);
+}
 
 .row-wrapper{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 12vh;
 }
 
 .col-wrapper{
@@ -62,4 +69,54 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   align-items: center;
   justify-content: center;
 }
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-button-next {
+  /* right: 10px; */
+  right: 9%;
+}
+
+.swiper-button-prev{
+    left: 9%;
+}
+
+a{
+  font-size: 18px;
+  text-decoration: none;
+  color: $text-color-dark;
+}
+
+
 

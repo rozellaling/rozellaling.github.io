@@ -1,11 +1,13 @@
 .row-wrapper{
-    height: 12vh;
+    height: 10vh;
 }
 
 app-logo{
+    padding-left: 5%;
     flex:2;
 }
 app-nav-bar{
+    padding-right: 5%;
     flex:1;
 }
   

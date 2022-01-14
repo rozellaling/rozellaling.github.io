@@ -1,3 +1,4 @@
-<p>
-  gallery works!
-</p>
+<div class="gallery-grid">
+  <div *ngFor="let image of images;" class="card" [ngStyle]="{ 'background-image': 'url('+image.imageUrl+')'}">
+  </div>
+</div>

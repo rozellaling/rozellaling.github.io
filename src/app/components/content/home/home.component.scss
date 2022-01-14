@@ -1,20 +1,23 @@
 .content-wrapper{
-    height:200vh;
+    height:300vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: center; 
+    gap: 1rem;
 }
 
 .content-wrapper > *{
     width: 100%;
 }
 app-slider{
-    flex: 4;
+    flex: 2;
+    // height: 90vh;
 }
 app-gallery{
     flex: 2;
+    // height: 40vh;
 }
 app-quote{
     flex: 2;
+    // height: 40vh;
 }

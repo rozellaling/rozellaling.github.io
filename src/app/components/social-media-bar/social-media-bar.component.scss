@@ -1,0 +1,22 @@
+@import '/src/sass/variables';
+
+.col-wrapper{
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mat-flat-button.mat-primary, .mat-raised-button.mat-primary, .mat-fab.mat-primary, .mat-mini-fab.mat-primary {
+    /* background-color: #3f51b5; */
+    // background-color: black !important;
+    background-color: $primary-light !important;
+    font-size: 30px;
+  }
+  
