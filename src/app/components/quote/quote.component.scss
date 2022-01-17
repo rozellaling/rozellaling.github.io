@@ -7,22 +7,37 @@
   height: 100%;
   border-radius: 20px;
   align-items: center;
-  justify-content: space-around;
-  // gap: 1;
+  justify-content: space-between;
+  gap: 1rem;
 
   background-color: $primary-lightest;
 }
 
 
 .introduction{
-  flex: 2;
-  height: 70%;
+  flex:1;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+  margin-left: 10%;
+}
+
+.ornament{
+  flex: 1;
+  width: 50%;
 }
 
 .introduction-text{
-  margin-left: 10%;
-margin-right: 10%;
-
+  flex: 3;
+  width: 80%;
+  text-align: center;
+  color: $text-color-light;
+  // margin-left: 10%;
+  // margin-right: 10%;
 }
 
 .introduction-picture{
@@ -31,8 +46,7 @@ margin-right: 10%;
   background-image: url('/assets/images/rozellaling.png');
   // background-attachment: fixed;
   background-position: center;
-  height:100%;
-  width: 100%;
+  height: 45%;
   background-size: contain;
   background-repeat: no-repeat;
 }
