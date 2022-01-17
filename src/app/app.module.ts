@@ -18,7 +18,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { SocialMediaBarComponent } from './components/social-media-bar/social-media-bar.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { ParallaxDirective } from './directives/parallax.directive';
+import { ContactFormComponent } from './components/contact-form/contact-form.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +33,7 @@ import { ParallaxDirective } from './directives/parallax.directive';
     GalleryComponent,
     QuoteComponent,
     SocialMediaBarComponent,
-    ParallaxDirective
+    ContactFormComponent
   ],
   imports: [
     BrowserModule,

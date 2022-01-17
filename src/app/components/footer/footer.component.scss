@@ -1,0 +1,23 @@
+@import '/src/sass/variables';
+
+.footer-wrapper{
+    margin-top: 2%; 
+    height: 40vh;
+    background-color: $primary-lighter;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-contact{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+app-contact-form{
+    flex: 2;
+}

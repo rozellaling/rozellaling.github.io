@@ -1,9 +1,11 @@
+@import '/src/sass/variables';
+
 .content-wrapper{
     height:300vh;
     display: flex;
     flex-direction: column;
     align-items: center; 
-    gap: 1rem;
+    gap: 2.5rem;
 }
 
 .content-wrapper > *{
@@ -19,5 +21,6 @@ app-gallery{
 }
 app-quote{
     flex: 2;
+    // background-color: $primary-lighter;
     // height: 40vh;
 }

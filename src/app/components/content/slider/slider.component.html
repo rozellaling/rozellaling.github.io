@@ -1,47 +1,22 @@
 <swiper [navigation]="true" [pagination]="true" class="mySwiper">
-  <ng-template swiperSlide>
+  <!-- <ng-template swiperSlide>
     <div class="col-wrapper" [ngStyle]="{ 'background-image': 'url(assets/images/Accessories/Accessories.0.jpg)'}">
       <q>
 
         Inspirational Quote?
-
-        <!-- <br><br> -->
-        <!-- - Tiny B. -->
       </q>
       <button mat-raised-button>View story</button>
     </div>
+  </ng-template> -->
 
-    <!-- <img src="assets/images/Accessories/Accessories.0.jpg" alt="logo"> -->
-  </ng-template>
-  <ng-template swiperSlide>-
-    <div class="col-wrapper" [ngStyle]="{ 'background-image': 'url(assets/images/Metal-Art/Minitable.2.jpg)'}">
+  <ng-template swiperSlide *ngFor="let image of images;">
+    <div class="col-wrapper" [ngStyle]="{ 'background-image': 'url('+image.imageUrl+')'}"
+      [style.background-position]="image.backgroundPosition ? image.backgroundPosition : '' ">
       <q>
-
-        Inspirational Quote?
-
-        <!-- <br><br> -->
-        <!-- - Tiny B. -->
+        Inspirational Quote?x
       </q>
-      <button mat-raised-button>View story</button>
+      <button class="button-square" mat-raised-button>View story</button>
     </div>
-
-    <!-- <img src="assets/images/Accessories/Accessories.0.jpg" alt="logo"> -->
   </ng-template>
-  <ng-template swiperSlide>
-    <div class="col-wrapper" [ngStyle]="{ 'background-image': 'url(assets/images/Metal-Art/Corner-Light-(2).2.jpg)'}">
-      <q>
 
-        Inspirational Quote?
-
-        <!-- <br><br> -->
-        <!-- - Tiny B. -->
-      </q>
-      <button mat-raised-button>View story</button>
-    </div>
-
-    <!-- <img src="assets/images/Accessories/Accessories.0.jpg" alt="logo"> -->
-  </ng-template>
 </swiper>
-
-<!-- background images? -->
-<!-- https://codepen.io/mirta91/pen/bKPzed -->

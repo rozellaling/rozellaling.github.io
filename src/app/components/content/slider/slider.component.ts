@@ -14,6 +14,35 @@ SwiperCore.use([Navigation, Pagination]);
 })
 export class SliderComponent {
 
+  images: {
+    imageUrl: string;
+    backgroundPosition?: string;
+  }[] =
+    [
+      {
+        imageUrl: 'assets/images/slider/accessories15.jpg',
+        backgroundPosition: "0 -120px"
+      },
+      {
+        imageUrl: 'assets/images/3d/3Dmodelling19.jpg',
+        backgroundPosition: "0 -200px"
+      },
+      {
+        imageUrl: 'assets/images/accessories/accessories1.jpg',
+        backgroundPosition: "0 -180px"
+      },
+
+      // {
+      //   imageUrl: 'assets/images/3d/3Dmodelling20.jpg',
+      //   backgroundPosition: "0 -200px"
+      // },
+      // {
+      //   imageUrl: 'assets/images/metalart/product19.jpg',
+      //   backgroundPosition: "0 -100px"
+      // },
+
+    ];
+
   config: SwiperOptions = {
     slidesPerView: 1,
     spaceBetween: 50,

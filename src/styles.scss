@@ -58,6 +58,16 @@ body {
   //TODO: make a overlay color = var(--bg-overlay-color);
 }
 
+// .overlay {
+//   position: relative;
+//   top: 0;
+//   left: 0;
+//   height: 100%;
+//   width: 100%;
+//   background-color: rgba(255,255,255,0.25);
+//   z-index: 9998;
+// }
+
 .row-wrapper{
   display: flex;
   align-items: center;
@@ -116,6 +126,12 @@ a{
   font-size: 18px;
   text-decoration: none;
   color: $text-color-dark;
+}
+
+.button-square{
+  border-radius: 0px !important;
+
+  // font-size: 12px;
 }
 
 
