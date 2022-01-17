@@ -22,7 +22,6 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
-
   margin-left: 10%;
 }
 
@@ -33,9 +32,10 @@
 
 .introduction-text{
   flex: 3;
-  width: 80%;
+  width: 65%;
   text-align: center;
   color: $text-color-light;
+  text-transform: none;
   // margin-left: 10%;
   // margin-right: 10%;
 }

@@ -1,7 +1,8 @@
 <div class="gallery-wrapper">
   <!-- <h1>Gallery</h1> -->
   <div class="gallery-grid">
-    <div *ngFor="let image of galleryImages;" class="card" [ngStyle]="{ 'background-image': 'url('+image.imageUrl+')'}">
+    <div *ngFor="let image of galleryImages;" class="card" [ngStyle]="{ 'background-image': 'url('+image.imageUrl+')'}"
+      [style.background-position]="image.backgroundPosition ? image.backgroundPosition : '' ">
     </div>
   </div>
 </div>

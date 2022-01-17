@@ -19,6 +19,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { SocialMediaBarComponent } from './components/social-media-bar/social-media-bar.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
+import { WorkComponent } from './components/work/work.component';
+import { AboutComponent } from './components/content/about/about.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { ContactFormComponent } from './components/contact-form/contact-form.com
     GalleryComponent,
     QuoteComponent,
     SocialMediaBarComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    WorkComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

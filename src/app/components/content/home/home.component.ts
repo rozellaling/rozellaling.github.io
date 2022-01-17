@@ -9,35 +9,39 @@ export class HomeComponent implements OnInit {
 
   homeGalleryImages: {
     imageUrl: string;
+    backgroundPosition?: string;
   }[] =
     [
       {
-        imageUrl: 'assets/images/accessories/accessories1.jpg'
+        imageUrl: 'assets/images/3d/3Dmodelling6.jpg'
       },
       {
-        imageUrl: 'assets/images/accessories/accessories2.jpg'
+        imageUrl: 'assets/images/3d/3Dmodelling8.jpg'
       },
       {
-        imageUrl: 'assets/images/accessories/accessories3.jpg'
+        imageUrl: 'assets/images/3d/3Dmodelling11.jpg'
       },
       {
-        imageUrl: 'assets/images/metalart/product1.jpg'
+        imageUrl: 'assets/images/metalart/product9.jpg'
       },
       {
-        imageUrl: 'assets/images/metalart/product2.jpg'
+        imageUrl: 'assets/images/metalart/product18.jpg',
+        backgroundPosition: "0 -170px"
       },
       {
-        imageUrl: 'assets/images/metalart/product3.jpg'
+        imageUrl: 'assets/images/metalart/product19.jpg',
+      },
+
+      {
+        imageUrl: 'assets/images/accessories/accessories13.jpg'
       },
       {
-        imageUrl: 'assets/images/3d/3Dmodelling1.jpg'
+        imageUrl: 'assets/images/accessories/accessories15.jpg'
       },
       {
-        imageUrl: 'assets/images/3d/3Dmodelling2.jpg'
+        imageUrl: 'assets/images/accessories/accessories14.jpg'
       },
-      {
-        imageUrl: 'assets/images/3d/3Dmodelling3.jpg'
-      },
+
       // {
       //   imageUrl: 'assets/images/metalart/Corner-Light-(2).2.jpg'
       // }

@@ -6,20 +6,21 @@
     flex-direction: column;
     align-items: center; 
     gap: 2.5rem;
+    text-align: center;
 }
 
 .content-wrapper > *{
     width: 100%;
 }
-app-slider{
+.slider-wrapper{
     flex: 2;
     // height: 90vh;
 }
-app-gallery{
+.gallery-wrapper{
     flex: 2;
     // height: 40vh;
 }
-app-quote{
+.quote-wrapper{
     flex: 2;
     // background-color: $primary-lighter;
     // height: 40vh;

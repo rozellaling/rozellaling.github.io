@@ -2,7 +2,6 @@
 
 .col-wrapper{
     height: 100%;
-    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -18,5 +17,9 @@ button{
     // background-color: black !important;
     background-color: $primary-light !important;
     font-size: 30px;
+  }
+
+  .envelope-icon{
+      font-size: 26px;
   }
   
