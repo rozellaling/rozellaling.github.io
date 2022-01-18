@@ -1,9 +1,14 @@
-q{
+p{
     font-weight: bold;
-    font-size: 45px;
+    font-size: clamp(10px, (1rem + 1vw), 50px);
+    width: max(50%, 16px);
     padding: 2%;
     margin: 2%;
     background-color: white;
+}
+
+.mySwiper{
+    min-height: 20%;
 }
 
 .col-wrapper{
@@ -11,6 +16,21 @@ q{
     width: 100%;
     background-size: cover;
 }
+
+    @media screen and (max-width:700px){
+        .slider-image{
+            background-position: center !important;
+        }
+    }
+
+.button-square{
+    border-radius: 0px !important;
+  
+    width: 12%;
+    padding: 5px 0px;
+    font-weight: normal;
+    // font-size: 12px;
+  }
 
 
   

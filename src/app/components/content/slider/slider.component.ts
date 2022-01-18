@@ -17,29 +17,24 @@ export class SliderComponent {
   images: {
     imageUrl: string;
     backgroundPosition?: string;
+    quote?: string;
   }[] =
     [
       {
         imageUrl: 'assets/images/slider/accessories15.jpg',
-        backgroundPosition: "0 -120px"
+        backgroundPosition: "0 -120px",
+        quote: "Never stop creating"
       },
       {
         imageUrl: 'assets/images/3d/3Dmodelling19.jpg',
-        backgroundPosition: "0 -200px"
+        backgroundPosition: "0 -200px",
+        quote: "Imagination leads to innovation"
       },
       {
         imageUrl: 'assets/images/accessories/accessories1.jpg',
-        backgroundPosition: "0 -180px"
+        backgroundPosition: "0 -180px",
+        quote: "Accessories - Complement your fashion"
       },
-
-      // {
-      //   imageUrl: 'assets/images/3d/3Dmodelling20.jpg',
-      //   backgroundPosition: "0 -200px"
-      // },
-      // {
-      //   imageUrl: 'assets/images/metalart/product19.jpg',
-      //   backgroundPosition: "0 -100px"
-      // },
 
     ];
 

@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-//TODO: remove other font awsome things i dont need.
 import { faInstagram, faFacebookF } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope';
 

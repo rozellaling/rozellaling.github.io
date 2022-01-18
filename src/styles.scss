@@ -38,6 +38,7 @@ $myApp-theme: mat.define-light-theme((
 // custom stuff
 @import './sass/variables';
 @import './sass/mixins';
+@import './sass/responsive';
 
 // // swiper
 @import '../node_modules/swiper/swiper-bundle.css';
@@ -54,19 +55,17 @@ html, body { height: 100%; }
 body {
   margin: 0; 
   font-family: 'Times New Roman', Times, serif;
-  text-transform: capitalize;
-  //TODO: make a overlay color = var(--bg-overlay-color);
 }
 
-// .overlay {
-//   position: relative;
-//   top: 0;
-//   left: 0;
-//   height: 100%;
-//   width: 100%;
-//   background-color: rgba(255,255,255,0.25);
-//   z-index: 9998;
-// }
+.overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: $bg-color;
+  z-index: 9998;
+}
 
 .row-wrapper{
   display: flex;
@@ -88,7 +87,6 @@ body {
 
 .swiper-slide {
   text-align: center;
-  font-size: 18px;
   background: #fff;
 
   /* Center slide text vertically */
@@ -129,10 +127,8 @@ a{
   color: $text-color-dark;
 }
 
-.button-square{
-  border-radius: 0px !important;
-
-  // font-size: 12px;
+h1{
+  font-size: clamp(16px, (1rem + 5vw), 50px);
 }
 
 

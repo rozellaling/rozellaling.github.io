@@ -2,8 +2,8 @@
 
 .footer-wrapper{
     margin-top: 2%; 
-    height: 40vh;
-    background-color: $primary-lighter;
+    height: 50vh;
+    background-color: $primary-lightest;
 
     display: flex;
     align-items: center;
@@ -21,3 +21,27 @@
 app-contact-form{
     flex: 2;
 }
+
+@media screen and (max-width:700px){
+    .footer-wrapper{
+        padding-top: 10%;
+        flex-direction: column;
+        height: 60vh;
+    }
+
+    
+}
+
+// app-social-media-bar{
+//     flex: 2;
+
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     justify-content: center;
+//     gap: 1rem;
+
+//     button{
+//         color: black !important;
+//     }
+// }

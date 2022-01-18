@@ -2,11 +2,23 @@
     display: flex;
   align-items: center;
   justify-content: left;
+  padding-top: 1%;
+  padding-left: 10%;
+  gap: 1rem;
   }
-img{
-    width: 10%;
+
+.logo-image{
+    // width:8%;
+    width: max(8%, 60px);
 }
-.logo-image-text{
-    padding-left: 3%;
-    width: 30%;
+.logo-text{
+    // width: 35%;
+    padding-top: 2%;
+    width: max(35%, 200px);
+}
+
+@media screen and (max-width:700px){
+    .logo-text{
+        display: none;
+    }
 }

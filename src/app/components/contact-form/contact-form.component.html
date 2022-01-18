@@ -1,10 +1,14 @@
 <div class="contact-form-wrapper">
-  <!-- <p>
-    Contact me:
-  </p> -->
+  <!-- TODO: research unsafe action (on live version) -->
   <form action="mailto:rozellaling@gmail.com" method="GET" target="_blank">
-    <input name="subject" id="subject" type="text" class="input" value="Example Email Subject">
-    <textarea class="textarea" name="body" id="body">Example Email Body</textarea>
-    <button mat-button type="submit" value="Create Email">Draft Email</button>
+    <mat-form-field class="subject-form-field" appearance="standard">
+      <mat-label>Subject</mat-label>
+      <input matInput placeholder="Subject" name="subject" id="subject" type="text" class="input" value="">
+    </mat-form-field>
+    <mat-form-field class="text-area-form-field" appearance="standard">
+      <mat-label>Message</mat-label>
+      <textarea matInput class="textarea" name="body" id="body"></textarea>
+    </mat-form-field>
+    <button mat-stroked-button type="submit" value="Create Email">Draft Email</button>
   </form>
 </div>

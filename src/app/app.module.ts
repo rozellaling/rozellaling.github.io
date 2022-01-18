@@ -21,6 +21,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ContactFormComponent } from './components/contact-form/contact-form.component';
 import { WorkComponent } from './components/work/work.component';
 import { AboutComponent } from './components/content/about/about.component';
+import { MatInputModule } from '@angular/material/input';
+import { ContactComponent } from './components/contact/contact.component';
+// import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -37,7 +40,8 @@ import { AboutComponent } from './components/content/about/about.component';
     SocialMediaBarComponent,
     ContactFormComponent,
     WorkComponent,
-    AboutComponent
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
@@ -46,7 +50,9 @@ import { AboutComponent } from './components/content/about/about.component';
     MatButtonModule,
     MatIconModule,
     SwiperModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    // MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent],

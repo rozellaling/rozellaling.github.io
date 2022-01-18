@@ -12,24 +12,28 @@ export class HomeComponent implements OnInit {
     backgroundPosition?: string;
   }[] =
     [
+
       {
-        imageUrl: 'assets/images/3d/3Dmodelling6.jpg'
+        imageUrl: 'assets/images/metalart/product7.jpg'
       },
+      {
+        imageUrl: 'assets/images/metalart/product13.jpg',
+        backgroundPosition: "0 -120px"
+      },
+      {
+        imageUrl: 'assets/images/metalart/product8.jpg',
+        // backgroundPosition: "0 -5px"
+      },
+
       {
         imageUrl: 'assets/images/3d/3Dmodelling8.jpg'
       },
       {
+        imageUrl: 'assets/images/3d/3Dmodelling6.jpg'
+      },
+
+      {
         imageUrl: 'assets/images/3d/3Dmodelling11.jpg'
-      },
-      {
-        imageUrl: 'assets/images/metalart/product9.jpg'
-      },
-      {
-        imageUrl: 'assets/images/metalart/product18.jpg',
-        backgroundPosition: "0 -170px"
-      },
-      {
-        imageUrl: 'assets/images/metalart/product19.jpg',
       },
 
       {

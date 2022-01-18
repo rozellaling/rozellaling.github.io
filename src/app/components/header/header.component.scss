@@ -11,4 +11,13 @@ app-nav-bar{
     padding-right: 5%;
     flex:1;
 }
+
+@media screen and (max-width:700px){
+    app-logo{
+        flex: 1;
+    }
+    app-nav-bar{
+        flex: 2;
+    }
+}
   

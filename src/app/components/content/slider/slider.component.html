@@ -1,21 +1,11 @@
 <swiper [navigation]="true" [pagination]="true" class="mySwiper">
-  <!-- <ng-template swiperSlide>
-    <div class="col-wrapper" [ngStyle]="{ 'background-image': 'url(assets/images/Accessories/Accessories.0.jpg)'}">
-      <q>
-
-        Inspirational Quote?
-      </q>
-      <button mat-raised-button>View story</button>
-    </div>
-  </ng-template> -->
-
   <ng-template swiperSlide *ngFor="let image of images;">
-    <div class="col-wrapper" [ngStyle]="{ 'background-image': 'url('+image.imageUrl+')'}"
+    <div class="col-wrapper slider-image" [ngStyle]="{ 'background-image': 'url('+image.imageUrl+')'}"
       [style.background-position]="image.backgroundPosition ? image.backgroundPosition : '' ">
-      <q>
-        Inspirational Quote?x
-      </q>
-      <button class="button-square" mat-raised-button>View story</button>
+      <p>
+        {{image.quote}}
+      </p>
+      <!-- <button class="button-square" mat-raised-button>Any questions?</button> -->
     </div>
   </ng-template>
 
