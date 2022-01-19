@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./work.component.scss']
 })
 export class WorkComponent implements OnInit {
-  threeDGalleryImages: {
+  accessoriesGalleryImages: {
     imageUrl: string;
   }[] =
     [
@@ -56,74 +56,62 @@ export class WorkComponent implements OnInit {
         imageUrl: 'assets/images/accessories/accessories15.jpg'
       }
     ];
-  accessoriesGalleryImages: {
+  threeDGalleryImages: {
     imageUrl: string;
   }[] = [
       {
-        imageUrl: 'assets/images/accessories/accessories1.jpg'
+        imageUrl: 'assets/images/3d/3Dmodelling1.jpg'
       },
       {
-        imageUrl: 'assets/images/accessories/accessories2.jpg'
+        imageUrl: 'assets/images/3d/3Dmodelling2.jpg'
       },
       {
-        imageUrl: 'assets/images/accessories/accessories3.jpg'
+        imageUrl: 'assets/images/3d/3Dmodelling3.jpg'
       },
       {
-        imageUrl: 'assets/images/accessories/accessories4.jpg'
+        imageUrl: 'assets/images/3d/3Dmodelling4.jpg'
       },
       {
-        imageUrl: 'assets/images/accessories/accessories5.jpg'
+        imageUrl: 'assets/images/3d/3Dmodelling6.jpg'
       },
       {
-        imageUrl: 'assets/images/accessories/accessories6.jpg'
+        imageUrl: 'assets/images/3d/3Dmodelling8.jpg'
       },
       {
-        imageUrl: 'assets/images/accessories/accessories7.jpg'
+        imageUrl: 'assets/images/3d/3Dmodelling9.jpg'
       },
       {
-        imageUrl: 'assets/images/accessories/accessories8.jpg'
+        imageUrl: 'assets/images/3d/3Dmodelling10.jpg'
       },
       {
-        imageUrl: 'assets/images/accessories/accessories9.jpg'
+        imageUrl: 'assets/images/3d/3Dmodelling11.jpg'
       },
       {
-        imageUrl: 'assets/images/accessories/accessories10.jpg'
+        imageUrl: 'assets/images/3d/3Dmodelling12.jpg'
       },
       {
-        imageUrl: 'assets/images/accessories/accessories11.jpg'
+        imageUrl: 'assets/images/3d/3Dmodelling14.jpg'
       },
       {
-        imageUrl: 'assets/images/accessories/accessories12.jpg'
+        imageUrl: 'assets/images/3d/3Dmodelling16.jpg'
       },
       {
-        imageUrl: 'assets/images/accessories/accessories13.jpg'
+        imageUrl: 'assets/images/3d/3Dmodelling17.jpg'
       },
       {
-        imageUrl: 'assets/images/accessories/accessories14.jpg'
+        imageUrl: 'assets/images/3d/3Dmodelling18.jpg'
       },
       {
-        imageUrl: 'assets/images/accessories/accessories15.jpg'
+        imageUrl: 'assets/images/3d/3Dmodelling19.jpg'
       },
       {
-        imageUrl: 'assets/images/accessories/accessories16.jpg'
+        imageUrl: 'assets/images/3d/3Dmodelling20.jpg'
       },
       {
-        imageUrl: 'assets/images/accessories/accessories17.jpg'
+        imageUrl: 'assets/images/3d/3Dmodelling21.jpg'
       },
       {
-        imageUrl: 'assets/images/accessories/accessories18.jpg'
-      },
-      {
-        imageUrl: 'assets/images/accessories/accessories19.jpg'
-      },
-      {
-        imageUrl: 'assets/images/accessories/accessories20.jpg'
-      },
-      {
-        imageUrl: 'assets/images/accessories/accessories21.jpg'
-      },
-      {
-        imageUrl: 'assets/images/accessories/accessories22.jpg'
+        imageUrl: 'assets/images/3d/3Dmodelling22.jpg'
       },
     ];
 

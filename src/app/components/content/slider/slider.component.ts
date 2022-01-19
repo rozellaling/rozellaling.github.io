@@ -23,17 +23,22 @@ export class SliderComponent {
       {
         imageUrl: 'assets/images/slider/accessories15.jpg',
         backgroundPosition: "0 -120px",
-        quote: "Never stop creating"
+        quote: "Imagination leads to innovation"
       },
       {
         imageUrl: 'assets/images/3d/3Dmodelling19.jpg',
         backgroundPosition: "0 -200px",
-        quote: "Imagination leads to innovation"
+        quote: "3D Models"
       },
       {
         imageUrl: 'assets/images/accessories/accessories1.jpg',
         backgroundPosition: "0 -180px",
-        quote: "Accessories - Complement your fashion"
+        quote: "Accessories"
+      },
+      {
+        imageUrl: 'assets/images/metalart/product8.jpg',
+        backgroundPosition: "0 -180px",
+        quote: "Metal Art"
       },
 
     ];
