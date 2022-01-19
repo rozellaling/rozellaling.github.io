@@ -1,11 +1,12 @@
 @import '/src/sass/variables';
 
 
+
+//TODO: too small on mobile
 button{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 
@@ -15,9 +16,9 @@ button{
     background-color: $primary-light !important;
     font-size: 2rem;
 
-    @media screen and (max-width:700px){
-        zoom: 0.8;   
-    }
+    // @media screen and (max-width:700px){
+    //     zoom: 0.8;   
+    // }
   }
 
   .envelope-icon{

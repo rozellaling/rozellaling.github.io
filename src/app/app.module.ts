@@ -23,6 +23,8 @@ import { WorkComponent } from './components/work/work.component';
 import { AboutComponent } from './components/content/about/about.component';
 import { MatInputModule } from '@angular/material/input';
 import { ContactComponent } from './components/contact/contact.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { ImageDialogComponent } from './components/image-dialog/image-dialog.component';
 // import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
@@ -41,7 +43,8 @@ import { ContactComponent } from './components/contact/contact.component';
     ContactFormComponent,
     WorkComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    ImageDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -52,7 +55,8 @@ import { ContactComponent } from './components/contact/contact.component';
     SwiperModule,
     FontAwesomeModule,
     // MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent],

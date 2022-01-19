@@ -1,4 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { ContactFormComponent } from '../../contact-form/contact-form.component';
+import { ImageDialogComponent } from '../../image-dialog/image-dialog.component';
 
 @Component({
   selector: 'app-gallery',
@@ -11,9 +14,20 @@ export class GalleryComponent implements OnInit {
     backgroundPosition?: string;
   }[] = [];
 
-  constructor() { }
+  constructor(private dialog: MatDialog) { }
 
   ngOnInit() {
   }
+
+  // TODO: answer to UGP
+
+  openDetailDialog(imageUrl: string) {
+    let dialogRef = this.dialog.open(ImageDialogComponent, {
+      height: '70vh',
+      width: '70%',
+      data: { imageUrl }
+    });
+  }
+
 
 }
