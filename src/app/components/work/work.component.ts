@@ -152,9 +152,6 @@ export class WorkComponent implements OnInit {
         imageUrl: 'assets/images/metalart/product11.jpg'
       },
       {
-        imageUrl: 'assets/images/metalart/product12.jpg'
-      },
-      {
         imageUrl: 'assets/images/metalart/product13.jpg'
       },
       {

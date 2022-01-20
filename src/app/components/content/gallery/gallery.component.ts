@@ -19,8 +19,6 @@ export class GalleryComponent implements OnInit {
   ngOnInit() {
   }
 
-  // TODO: answer to UGP
-
   openDetailDialog(imageUrl: string) {
     let dialogRef = this.dialog.open(ImageDialogComponent, {
       height: '70vh',
