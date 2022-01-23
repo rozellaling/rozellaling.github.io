@@ -25,6 +25,7 @@ import { MatInputModule } from '@angular/material/input';
 import { ContactComponent } from './components/contact/contact.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { ImageDialogComponent } from './components/image-dialog/image-dialog.component';
+import { FormsModule } from '@angular/forms';
 // import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
@@ -47,6 +48,7 @@ import { ImageDialogComponent } from './components/image-dialog/image-dialog.com
     ImageDialogComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,

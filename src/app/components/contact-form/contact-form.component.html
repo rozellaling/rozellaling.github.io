@@ -1,13 +1,15 @@
 <div class="contact-form-wrapper">
-  <form action="mailto:rozellaling@gmail.com" method="GET" target="_blank">
+  <div class="mail-form">
     <mat-form-field class="subject-form-field" appearance="standard">
       <mat-label>Subject</mat-label>
-      <input matInput placeholder="Subject" name="subject" id="subject" type="text" class="input" value="">
+      <input matInput [(ngModel)]="subject">
     </mat-form-field>
     <mat-form-field class="text-area-form-field" appearance="standard">
       <mat-label>Message</mat-label>
-      <textarea matInput class="textarea" name="body" id="body"></textarea>
+      <textarea matInput [(ngModel)]="body"></textarea>
     </mat-form-field>
-    <button mat-stroked-button type="submit" value="Create Email">Draft Email</button>
-  </form>
+    <a href="mailto:rozellaling@gmail.com?Subject={{subject}}&body={{body}}">
+      <button mat-stroked-button value=" Create Email">Draft Email</button>
+    </a>
+  </div>
 </div>
