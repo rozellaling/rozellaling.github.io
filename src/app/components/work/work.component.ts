@@ -60,6 +60,24 @@ export class WorkComponent implements OnInit {
     imageUrl: string;
   }[] = [
       {
+        imageUrl: 'assets/images/new/handylight1.jpg'
+      },
+      {
+        imageUrl: 'assets/images/new/handylight2.jpg'
+      },
+      {
+        imageUrl: 'assets/images/new/handylight3.jpg'
+      },
+      {
+        imageUrl: 'assets/images/new/teapot.jpg'
+      },
+      {
+        imageUrl: 'assets/images/new/engagementring1.jpg'
+      },
+      {
+        imageUrl: 'assets/images/new/sharkteeth.jpg'
+      },
+      {
         imageUrl: 'assets/images/3d/3Dmodelling1.jpg'
       },
       {

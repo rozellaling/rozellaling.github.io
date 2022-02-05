@@ -11,13 +11,19 @@ p{
     min-height: 20%;
 }
 
+video{
+    @media screen and (max-width:500px){
+        width: 180%;
+    }
+}
+
 .col-wrapper{
     height: 100%;
     width: 100%;
     background-size: cover;
 }
 
-    @media screen and (max-width:700px){
+    @media screen and (max-width:1200px){
         .slider-image{
             background-position: center !important;
         }
