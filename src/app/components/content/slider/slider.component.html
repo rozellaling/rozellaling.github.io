@@ -1,18 +1,18 @@
-<swiper [navigation]="true" [pagination]="true" class="mySwiper">
+<swiper [navigation]="true" [pagination]="true" class="mySwiper" [autoplay]="true">
   <ng-template swiperSlide *ngFor="let image of images;">
     <div *ngIf="image.imageUrl" class="col-wrapper slider-image"
       [ngStyle]="{ 'background-image': 'url('+image.imageUrl+')'}"
       [style.background-position]="image.backgroundPosition ? image.backgroundPosition : '' ">
-      <p>
+      <p *ngIf="image.quote">
         {{image.quote}}
       </p>
       <!-- <button class="button-square" mat-raised-button>Any questions?</button> -->
     </div>
-    <div *ngIf="image.videoUrl" class="col-wrapper slider-image">
+    <!-- <div *ngIf="image.videoUrl" class="col-wrapper slider-image">
       <video width="90%" autoplay muted loop poster="assets/images/new/earring1.jpg" autoplay="autoplay">
         <source src="{{image.videoUrl}}" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-    </div>
+    </div> -->
   </ng-template>
 </swiper>

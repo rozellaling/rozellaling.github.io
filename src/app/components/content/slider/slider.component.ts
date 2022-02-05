@@ -1,10 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 // import Swiper core and required modules
-import SwiperCore, { Navigation, SwiperOptions, Pagination } from 'swiper';
+import SwiperCore, { Navigation, SwiperOptions, Pagination, Autoplay } from 'swiper';
 
 // install Swiper modules
-SwiperCore.use([Navigation, Pagination]);
+SwiperCore.use([Navigation, Pagination, Autoplay]);
 
 @Component({
   selector: 'app-slider',
@@ -12,6 +12,10 @@ SwiperCore.use([Navigation, Pagination]);
   styleUrls: ['./slider.component.scss']
 })
 export class SliderComponent {
+
+  // autoplayOptions: AutoplayOptions = {
+  //   delay: 3000,
+  // };
 
   images: {
     imageUrl?: string;
@@ -21,15 +25,17 @@ export class SliderComponent {
   }[] =
     [
       {
-        videoUrl: 'assets/images/new/newearring.mp4',
+        imageUrl: 'assets/images/new/earring1.jpg',
         // backgroundPosition: "0 -180px",
-        // quote: ""
+        // quote: "Accessories"
       },
       {
         imageUrl: 'assets/images/slider/accessories15.jpg',
         backgroundPosition: "0 -120px",
+        // quote: "Imagination leads to innovation."
         quote: "Accessories"
       },
+
       {
         imageUrl: 'assets/images/new/handylight1_new.jpg',
         // backgroundPosition: "0 -200px",
