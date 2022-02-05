@@ -20,11 +20,11 @@ export class SliderComponent {
     videoUrl?: string;
   }[] =
     [
-      // {
-      //   videoUrl: 'assets/images/new/newearring.mp4',
-      //   // backgroundPosition: "0 -180px",
-      //   // quote: ""
-      // },
+      {
+        videoUrl: 'assets/images/new/newearring.mp4',
+        // backgroundPosition: "0 -180px",
+        // quote: ""
+      },
       {
         imageUrl: 'assets/images/slider/accessories15.jpg',
         backgroundPosition: "0 -120px",

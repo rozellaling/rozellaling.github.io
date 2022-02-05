@@ -12,6 +12,7 @@ p{
 }
 
 video{
+    width: 100%;
     @media screen and (max-width:500px){
         width: 180%;
     }
